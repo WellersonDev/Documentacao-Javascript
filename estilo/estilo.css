@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #CFFF8D;
+    --cor02: #749F82;
+}
+
+header {
+    background-color: var(--cor01);
+    height: 30vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+main input {
+    display: block;
+    background-color: var(--cor02);
+    color: white;
+    width: 99%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
