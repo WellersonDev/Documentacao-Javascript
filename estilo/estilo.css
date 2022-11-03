@@ -19,14 +19,30 @@ header {
     padding: 40px;
 }
 
+header h1 {
+    line-height: 50px;
+}
+
 main input {
     display: block;
     background-color: var(--cor02);
     color: white;
     width: 99%;
-    margin: auto;
+    margin: 10px auto;
     font-size: 1.2em;
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
+    border: 1px solid var(--cor02);
+    border-radius: 15px;
+}
+
+main iframe {
+    display: none;
+    width: 99%;
+    margin: auto;
+}
+
+main iframe#tema01 {
+    height: 400px;
 }
