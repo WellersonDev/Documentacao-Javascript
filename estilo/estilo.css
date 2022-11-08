@@ -23,7 +23,7 @@ header h1 {
     line-height: 50px;
 }
 
-main input {
+main section input {
     display: block;
     background-color: var(--cor02);
     color: white;
@@ -37,12 +37,12 @@ main input {
     border-radius: 15px;
 }
 
-main iframe {
+main section iframe {
     display: none;
     width: 99%;
     margin: auto;
 }
 
-main iframe#tema01 {
+main section iframe#tema01 {
     height: 400px;
 }
