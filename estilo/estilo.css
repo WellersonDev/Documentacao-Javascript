@@ -41,8 +41,5 @@ main section iframe {
     display: none;
     width: 99%;
     margin: auto;
-}
-
-main section iframe#tema01 {
-    height: 400px;
+    height: 450px;
 }

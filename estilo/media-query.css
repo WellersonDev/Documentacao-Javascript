@@ -17,37 +17,53 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 768px) {
-    main {
+    /*main {
         position: absolute;
-    }
+    }*/
 
     main section {
         background-color: var(--cor01);
-        max-width: 280px;
-        height: 100vh;
+        max-width: 220px;
+        height: 80vh;
         padding-top: 40px;
     }
 
     main section input {
-        width: 240px;
+        width: 180px;
         margin-left: 5px;
-        font-size: 15px;
-        padding: 5px;
+        font-size: 13px;
+        padding: 4px;
 
         transition-duration: .2s;
     }
 
     main section iframe {
         display: block;
-        width: 95%;
+        width: 69%;
         
-        position: relative;
-        left: 177%;
-        top: 20%;
+        position: absolute;
+        left: 65%;
+        top: 63%;
         transform: translate(-50%, -50%);
     }
 
     main section input:hover {
         margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main section iframe {
+        width: 76%;
+        left: 61%;
+        top: 61.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main section iframe {
+        width: 79%;
+        left: 58.5%;
+        top: 61.5%;
     }
 }
