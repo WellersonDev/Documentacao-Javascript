@@ -43,3 +43,8 @@ main section iframe {
     margin: auto;
     height: 450px;
 }
+
+main section input[desktop], iframe[desktop] {
+    background-color: skyblue;
+    display: none;
+}

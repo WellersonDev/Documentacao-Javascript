@@ -49,6 +49,22 @@ Grandes telas: acima de 1200px
         /*transform: translate(-50%, -50%);*/
     }
 
+    main section input[desktop], iframe[desktop] {
+        display: block;
+    }
+
+    main section input[mobile], iframe[mobile] {
+        display: none;
+    }
+
+    main section iframe.indice0 {
+        z-index: 0;
+    }
+
+    main section iframe.indice1 {
+        z-index: 1;
+    }
+
     main section input:hover {
         margin-left: 30px;
     }
