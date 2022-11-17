@@ -96,3 +96,66 @@ function troca02() {
         assunto05.setAttribute('class', 'indice0')
     }
 }
+
+function troca03() {
+    let assunto01 = document.querySelector('iframe#assunto01')
+    let assunto02 = document.querySelector('iframe#assunto02')
+    let assunto03 = document.querySelector('iframe#assunto03')
+    let assunto04 = document.querySelector('iframe#assunto04')
+    let assunto05 = document.querySelector('iframe#assunto05')
+
+    if(window.innerWidth >= 768) {
+        assunto01.removeAttribute('class')
+        assunto02.removeAttribute('class')
+        assunto03.removeAttribute('class')
+        assunto04.removeAttribute('class')
+        assunto05.removeAttribute('class')
+        assunto01.setAttribute('class', 'indice0')
+        assunto02.setAttribute('class', 'indice0')
+        assunto03.setAttribute('class', 'indice1')
+        assunto04.setAttribute('class', 'indice0')
+        assunto05.setAttribute('class', 'indice0')
+    }
+}
+
+function troca04() {
+    let assunto01 = document.querySelector('iframe#assunto01')
+    let assunto02 = document.querySelector('iframe#assunto02')
+    let assunto03 = document.querySelector('iframe#assunto03')
+    let assunto04 = document.querySelector('iframe#assunto04')
+    let assunto05 = document.querySelector('iframe#assunto05')
+
+    if(window.innerWidth >= 768) {
+        assunto01.removeAttribute('class')
+        assunto02.removeAttribute('class')
+        assunto03.removeAttribute('class')
+        assunto04.removeAttribute('class')
+        assunto05.removeAttribute('class')
+        assunto01.setAttribute('class', 'indice0')
+        assunto02.setAttribute('class', 'indice0')
+        assunto03.setAttribute('class', 'indice0')
+        assunto04.setAttribute('class', 'indice1')
+        assunto05.setAttribute('class', 'indice0')
+    }
+}
+
+function troca05() {
+    let assunto01 = document.querySelector('iframe#assunto01')
+    let assunto02 = document.querySelector('iframe#assunto02')
+    let assunto03 = document.querySelector('iframe#assunto03')
+    let assunto04 = document.querySelector('iframe#assunto04')
+    let assunto05 = document.querySelector('iframe#assunto05')
+
+    if(window.innerWidth >= 768) {
+        assunto01.removeAttribute('class')
+        assunto02.removeAttribute('class')
+        assunto03.removeAttribute('class')
+        assunto04.removeAttribute('class')
+        assunto05.removeAttribute('class')
+        assunto01.setAttribute('class', 'indice0')
+        assunto02.setAttribute('class', 'indice0')
+        assunto03.setAttribute('class', 'indice0')
+        assunto04.setAttribute('class', 'indice0')
+        assunto05.setAttribute('class', 'indice1')
+    }
+}
