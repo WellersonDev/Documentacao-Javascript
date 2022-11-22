@@ -9,6 +9,7 @@
         body {
             background-color: white;
             font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
         }
 
         code {
@@ -23,12 +24,25 @@
 </head>
 <body>
     <h3>Comentários de Código</h3>
-    <p>Serve para comentar algo sobre um trecho de código, como por exemplo explicar o que ele faz, o comentário não aparece durante a execução do código.</p>
+    <p>Serve para comentar algo sobre um trecho de código, como por exemplo explicar o que ele faz, então tudo que estiver depois de duas barras(//) ou entre /* */ é um comentário e não aparece durante a execução do código.</p>
 
     <code>
-        <span>// Isso é um exemplo de comentário, depois de duas barras(//).</span><br>
+        <span>// Isso é um exemplo de comentário.</span><br>
         console.log('Primeiro texto');<span>// Comentário também ao lado do código.</span><br>
         console.log('Segundo texto');<br>
     </code>
+
+    <p>Existe também comentários de múltiplas linhas.</p>
+    <code>
+        <span>
+            /*<br>
+                * Aqui é um<br>
+                * Comentário de<br>
+                * múltiplas linhas.<br>
+            */<br>
+        </span>
+    </code>
+
+    <p>Obs: Evite comentários desnecessários quando estiver trabalhando profissionalmente.</p>
 </body>
 </html>
