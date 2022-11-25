@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+code {
+    display: inline-block;
+    background-color: rgba(162, 162, 162, 0.548);
+    padding: 1px;
+}
+
+code#codigoVariaveis {
+    width: 480px;
+}
+
+.comenta {
+    color: rgba(137, 43, 226, 0.582);
+}
+
+.codigo01 {
+    margin-left: 15px;
+}
+
+.codigo02 {
+    margin-left: 30px;
+}
+
+.espaco {
+    display: block;
+    margin-top: 10px;
+}
+
+.bloco {
+    display: block;
+}

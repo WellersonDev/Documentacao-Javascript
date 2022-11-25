@@ -5,45 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: justify;
-        }
-
-        code {
-            background-color: rgba(162, 162, 162, 0.548);
-            padding: 1px;
-        }
-
-        span {
-            color: rgba(137, 43, 226, 0.582);
-        }
-        
-        .codigo01 {
-            margin-left: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="temas.css">
 </head>
 <body>
     <h3>Comentários de Código</h3>
-    <p>Serve para comentar algo sobre um trecho de código, como por exemplo explicar o que ele faz, então tudo que estiver depois de duas barras(//) ou entre /* */ é um comentário e não aparece durante a execução do código.</p>
+
+    <p>
+        Serve para comentar algo sobre um trecho de código, como por exemplo explicar o que ele faz, então tudo que estiver depois de duas barras(//) ou entre /* */ é um comentário e não aparece durante a execução do código.
+    </p>
 
     <code>
-        <span>// Isso é um exemplo de comentário.</span><br>
-        console.log('Primeiro texto');<span>// Comentário também ao lado do código.</span><br>
+        <span class="comenta">// Isso é um exemplo de comentário.</span><br>
+        console.log('Primeiro texto');<span class="comenta">// Comentário também ao lado do código.</span><br>
         console.log('Segundo texto');<br>
     </code>
 
     <p>Existe também comentários de múltiplas linhas.</p>
     <code>
         <span>
-            /*<br>
-                <span class="codigo01">* Aqui é um</span><br>
-                <span class="codigo01">* Comentário de</span><br>
-                <span class="codigo01">* múltiplas linhas.</span><br>
-            */<br>
+            <span class="comenta">/*</span><br>
+                <span class="codigo01 comenta">* Aqui é um</span><br>
+                <span class="codigo01 comenta">* Comentário de</span><br>
+                <span class="codigo01 comenta">* múltiplas linhas.</span><br>
+            <span class="comenta">*/</span><br>
         </span>
     </code>
 
