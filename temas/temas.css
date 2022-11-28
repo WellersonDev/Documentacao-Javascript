@@ -36,3 +36,9 @@ code#codigoVariaveis {
 .bloco {
     display: block;
 }
+
+.obs {
+    display: block;
+    font-size: 13px;
+    width: 480px;
+}
