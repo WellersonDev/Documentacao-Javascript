@@ -16,6 +16,38 @@ Grandes telas: acima de 1200px
     --cor02: #749F82;
 }
 
+@media screen and (min-width: 390px) {
+    section iframe#tema01 {
+        height: 565px;
+    }
+
+    section iframe#tema02 {
+        height: 430px;
+    }
+
+    section iframe#tema03 {
+        height: 515px;
+    }
+
+    section iframe#tema04 {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    section iframe#tema01 {
+        height: 550px;
+    }
+
+    section iframe#tema02 {
+        height: 425px;
+    }
+
+    section iframe#tema04 {
+        height: 590px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     /*main {
         position: relative;

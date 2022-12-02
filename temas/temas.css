@@ -4,6 +4,7 @@ body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    padding: 5px;
 }
 
 code {
@@ -13,7 +14,7 @@ code {
 }
 
 code#codigoVariaveis {
-    width: 480px;
+    max-width: 480px;
 }
 
 .comenta {
@@ -40,5 +41,5 @@ code#codigoVariaveis {
 .obs {
     display: block;
     font-size: 13px;
-    width: 480px;
+    max-width: 480px;
 }
