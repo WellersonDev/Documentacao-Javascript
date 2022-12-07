@@ -123,7 +123,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-height: 400px) {
     section#conteúdo {
-        height: 82%;
+        height: 100%;
     }
 }
 
