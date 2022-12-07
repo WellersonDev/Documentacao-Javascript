@@ -58,7 +58,7 @@ Grandes telas: acima de 1200px
         display: inline-block;
         background-image: linear-gradient(to right, var(--cor01) 220px, white 100px);
         width: 100%;
-        height: 80%;
+        height: 88%;
         padding-top: 40px;
 
         position: absolute;
@@ -107,7 +107,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 992px) {
     section#conteúdo {
-        height: 70%;
+        height: 78%;
     }
     
     section iframe {
@@ -124,12 +124,12 @@ Grandes telas: acima de 1200px
         top: 2%;
     }
 }
-/*
-@media screen and (min-height: 720px) {
+
+@media screen and (min-height: 700px) {
     section#conteúdo {
         height: 100%;
     }
-}*/
+}
 /*
 @media screen and (min-height: 800px) {
     section#conteúdo {
