@@ -19,8 +19,9 @@ header {
     padding: 40px;
 }
 
-header h1 {
-    line-height: 50px;
+header section {
+    position: relative;
+    top: 30%;
 }
 
 section input {
@@ -61,6 +62,6 @@ section iframe#tema04 {
 }
 
 section input[desktop], iframe[desktop] {
-    background-color: skyblue;
+    /*background-color: skyblue;*/
     display: none;
 }
