@@ -121,14 +121,14 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-height: 400px) {
+@media screen and (min-height: 720px) {
     section#conteúdo {
         height: 100%;
     }
 }
-
+/*
 @media screen and (min-height: 800px) {
     section#conteúdo {
         height: 70%;
     }
-}
+}*/
