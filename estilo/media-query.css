@@ -125,7 +125,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-height: 2160px) {
+@media screen and (min-height: 280px) {
     section#conteúdo {
         height: 180%;
     }
